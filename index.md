@@ -4,7 +4,7 @@ layout: default
 
 The following tutorial demonstrates how can you host your static website on github. It assumes that you have an account on **[github](https://github.com)**. If you don't, go ahead and create one!
 
-Also, the git client has to be installed on the system. If it is not, [download](http://git-scm/downloads/) the git client for your particular system and install it.
+Also, the git client has to be installed on the system. If it is not, [download](https://git-scm.co/downloads) the git client for your particular system and install it.
 
 > To make it easier for everybody, we'll use as an example this exact page.
 
@@ -62,11 +62,13 @@ $ git commit -m "initial commit"
 
 ## [](#step-7)Step 7
 
-Now we need to link the local repository with the empty one from github. Write the following in your terminal
+Now we need to link the local repository with the empty remote one from github. Write the following in your terminal
 
 ```
 git remote add origin https://github.com/{username}/gihub-pages-demo.git
 ```
+
+> Make sure to replace `{username}` with your own github username!
 
 
 ## [](#step-8)Step 8
@@ -104,4 +106,4 @@ git push --set-upstream origin gh-pages
 
 Wait few minutes (depends on how busy the servers are) and go to `https://{username}.github.io/ghithub-pages-demo/`
 
-Congratulations! Your website should now be hosted on github.
+Congratulations, your website is now hosted on github!
